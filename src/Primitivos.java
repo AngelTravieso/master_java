@@ -48,5 +48,7 @@ public class Primitivos {
         var numberVar = 127; // en literal numérica var siempre será un int, a menos que se coloque el L (Long) o F (Float)
 
 
+
+
     }
 }
