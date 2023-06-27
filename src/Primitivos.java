@@ -35,20 +35,9 @@ public class Primitivos {
         System.out.println("Valor máximo de un long: " + Long.MAX_VALUE);
         System.out.println("Valor mínimo de un long: " + Long.MIN_VALUE);
 
-        System.out.println("\n");
-
-        // -9223372036854775808 / 9223372036854775807
-        float numberFloat = 9223372036854775807F;
-        System.out.println("Tipo float corresponde en byte a " + Float.BYTES);
-        System.out.println("Tipo float corresponde en bites a " + Float.SIZE);
-        System.out.println("Valor máximo de un float: " + Float.MAX_VALUE);
-        System.out.println("Valor mínimo de un float: " + Float.MIN_VALUE);
 
         // var es soportado desde JDK 10 en adelante
         var numberVar = 127; // en literal numérica var siempre será un int, a menos que se coloque el L (Long) o F (Float)
-
-
-
 
     }
 }
